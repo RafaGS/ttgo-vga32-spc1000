@@ -1,5 +1,8 @@
 # TTGO VGA32 Bare-metal SPC-1000 emulator
 
+For more information about the changes, go to this link: 
+[https://minibots.wordpress.com/2026/01/01/emulador-de-samsung-spc-1000-con-lilygo-ttgo-vga32/]
+
 ## What is this?
 This repo provides the emulator for [SPC-1000](https://en.wikipedia.org/wiki/SPC-1000), 8-bit PC produced by Samsung back in 80s, running on [TTGO VGA32](https://www.lilygo.cc/products/fabgl-vga32?srsltid=AfmBOop8-ClCY9N2DyQ304dntEUzOV5FXcsA8I_89iQg2uh22UNng-HH).
 
