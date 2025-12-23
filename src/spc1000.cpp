@@ -211,7 +211,7 @@ void SPC1000::Init() {
 
 int SPC1000::ReadConfig(const char* attr, int defvalue) {
   esp_err_t err;
-  nvs_handle_t nvs_handle;
+  nvs_handle nvs_handle;
   int32_t res;
 
   if (!nvs_init_) return defvalue;
@@ -231,7 +231,7 @@ int SPC1000::ReadConfig(const char* attr, int defvalue) {
 
 void SPC1000::UpdateConfig(const char *attr, int value) {
   esp_err_t err;
-  nvs_handle_t nvs_handle;
+  nvs_handle nvs_handle;
 
   if (!nvs_init_) return;
 
